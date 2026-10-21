@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Iceberg&family=Sankofa+Display&family=Tulpen+One&display=swap');
+.heading-genre {
+    font-family: "Iceberg", sans-serif;
+    font-size: 40px;
+    color: #eaeaf0;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(white, #411e7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.outerCard{
+    width: 80%;
+    background-color: #1a1a2e;
+    border: 2px solid #411e7e;
+    border-radius: 10px;
+    padding-inline-start: 20px;
+    padding: 20px;
+    margin: 40px auto;
+}
+.game-link {
+    display: block;
+    text-decoration: none;
+}
+.innerCard {
+    background-color: #313155;
+    border: 2px solid #411e7e;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: border 0.2s ease, background-color 0.2s ease;
+}
+.innerCard:hover {
+    border: 2px solid #14b8a6;
+    background-color: #3d3d6b;
+}
+.innerCard img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 2px solid #411e7e;
+}
+.innerCard .col {
+    display: flex;
+    align-items: center;
+    font-family: "Iceberg", sans-serif;
+    color: #eaeaf0;
+    font-size: 16px;
+}
+.pagination {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+}
+.pagination a {
+    font-family: "Iceberg", sans-serif;
+    color: #eaeaf0;
+    background-color: #411e7e;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+.pagination a:hover {
+    background-color: #14b8a6;
+}

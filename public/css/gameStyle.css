@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Iceberg&family=Sankofa+Display&family=Tulpen+One&display=swap');
+.game-page {
+    padding: 40px;
+}
+.game-title {
+    font-family: "Iceberg", sans-serif;
+    font-size: 40px;
+    color: #eaeaf0;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(white, #411e7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.game-container {
+    display: flex;
+    gap: 30px;
+}
+.game-container2 {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.game-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.game-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.main-player {
+    width: 800px;
+    background-color: #0a0a14;
+    border: 2px solid #411e7e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.main-video,
+.main-media {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    display: block;
+    background-color: #0a0a14;
+}
+.thumbnail-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 800px;
+}
+.thumbnail-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    flex: 1;
+    height: 68px;
+    align-items: center;
+}
+.thumb-prev,
+.thumb-next {
+    background-color: #1a1a2e;
+    color: #eaeaf0;
+    border: 2px solid #411e7e;
+    border-radius: 4px;
+    width: 30px;
+    height: 68px;
+    font-size: 24px;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thumb-prev:hover,
+.thumb-next:hover {
+    background-color: #411e7e;
+}
+.thumbnail {
+    width: 120px;
+    height: 68px;
+    flex-shrink: 0;
+    border: 2px solid #411e7e;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border 0.2s ease;
+    position: relative
+}
+.thumbnail:hover {
+    border: 2px solid #14b8a6;
+}
+.active-thumb {
+    border: 2px solid #14b8a6;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.long-desc {
+    color: #e2e8f0;
+    width: fit-content;
+    font-family: "Iceberg", sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #411e7e;
+    background-color: #1a1a2e;
+    width: 800px;
+}
+.pc-requirements {
+    color: #e2e8f0;
+    font-family: "Iceberg", sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #411e7e;
+    background-color: #1a1a2e;
+    width: auto;
+}
+.card{
+    width: 800px;
+}
+.cat-card{
+    background-color: #1a1a2e;
+    width: auto;
+    color: #e2e8f0;
+    font-family: "Iceberg", sans-serif;
+    font-size: 8px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #411e7e;
+}
+.cat-tag{
+    background-color: #140929;
+    color: #eaeaf0;
+    font-family: "Iceberg", sans-serif;
+    font-size: 16px;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.game-header-img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #411e7e;
+}
+.game-short-desc {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.game-price {
+    font-size: 20px;
+    color: #14b8a6;
+    font-family: "Iceberg", sans-serif;
+}
+.game-price-initial {
+    font-size: 20px;
+    color: #04221e;
+    font-family: "Iceberg", sans-serif;
+    padding-left: 10px;
+}
+.fav-btn {
+    background-color: #411e7e;
+    color: #eaeaf0;
+    font-family: "Iceberg", sans-serif;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.fav-btn:hover {
+    background-color: #14b8a6;
+}
+.steam-btn {
+    background-color: #171d25;
+    color: #eaeaf0;
+    font-family: "Iceberg", sans-serif;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.steam-btn:hover {
+    background-color: #0a0c0f;
+}
+.game-right .labels {
+    font-size: 14px;
+}
+.subHeading-left{
+    font-family: "Iceberg", sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #eaeaf0;
+}
+.long-desc video, .long-desc img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+h2.bb_tag{
+    margin-top: 20px;
+}
+.video-thumb::after{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    content: '▶';
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+}
+.game-right .labels {
+    margin-bottom: 6px;
+}

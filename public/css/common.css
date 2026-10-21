@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Iceberg&family=Sankofa+Display&family=Tulpen+One&display=swap');
+
+.body{
+    background-color: #0f0f1a;
+}
+.heading{
+    font-family: "Iceberg", sans-serif;
+    font-size: 150px;
+    text-align: center;
+    color: #eaeaf0;
+}
+.subHeading{
+    font-family: "Iceberg", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #eaeaf0;
+}
+.labels{
+    font-family: "Iceberg", sans-serif;
+    color: #e2e8f0;
+}
+.labelHeading{
+    font-family: "Iceberg", sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    color: #e2e8f0;
+}
+.genre-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+}
+.genre-tag{
+    background-color: #411e7e;
+    color: #eaeaf0;
+    font-family: "Iceberg", sans-serif;
+    font-size: 16px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+.site-starfield{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #0f0f1a;
+}
+@keyframes siteStarDrift{
+    from{ transform: translateY(0); }
+    to{ transform: translateY(-50%); }
+}

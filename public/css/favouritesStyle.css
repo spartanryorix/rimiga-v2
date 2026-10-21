@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Iceberg&family=Sankofa+Display&family=Tulpen+One&display=swap');
+
+.heading-genre {
+    font-family: "Iceberg", sans-serif;
+    font-size: 40px;
+    color: #eaeaf0;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(white, #411e7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.outerCard {
+    width: 80%;
+    background-color: #1a1a2e;
+    border: 2px solid #411e7e;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px auto;
+}
+.fav-row {
+    background-color: #313155;
+    border: 2px solid #411e7e;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: border 0.2s ease, background-color 0.2s ease;
+}
+.fav-row:hover {
+    border: 2px solid #14b8a6;
+    background-color: #3d3d6b;
+}
+.fav-row img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 2px solid #411e7e;
+}
+.fav-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.fav-desc {
+    font-size: 14px;
+    color: #b8b8c8;
+    margin-bottom: 8px;
+}
+.fav-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #14b8a6;
+}
+.removeBtn {
+    background-color: #411e7e;
+    color: #eaeaf0;
+    font-family: "Iceberg", sans-serif;
+    font-size: 14px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.removeBtn:hover {
+    background-color: #c0392b;
+}
