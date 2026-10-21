@@ -50,13 +50,13 @@ This is a Laravel rewrite of the original Rimiga (v1), which was built in raw PH
 ```
 
 4. Create an empty MySQL database called `rimiga_v2`, then add your credentials to `.env`:
+```bash
 DB_DATABASE=rimiga_v2
 DB_USERNAME=root
 DB_PASSWORD=your_password
+```
 
-
-
-5. Run the migrations:
+6. Run the migrations:
 ```bash
    php artisan migrate
 ```
